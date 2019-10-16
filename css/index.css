@@ -149,9 +149,10 @@ article.guitar .product-buttons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-
-form{
-   text-align: center;
+main h1{
+    color: #ffd8ad;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 #products{
@@ -163,6 +164,21 @@ form{
 article.guitar h3{
      color: #ffd8ad;
     font-family: 'Lato', sans-serif;
-    text-align: center
+    text-align: center;
+}
 
+footer h1{
+     color: #ffd8ad;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#location{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+   text-align: center;
+   padding-bottom: 30px;
 }
