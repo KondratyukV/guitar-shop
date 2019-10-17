@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>RockStar</title>
-        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
 
     </head>
     <body>
@@ -23,18 +23,22 @@
             <div class="banner">
                 <h1>RockStar</h1>
                 <p>Browse The Best Guitar Shop</p>
-                <form>
+                <!-- <form>
                     <input class="button" type="button" value="Shop now" onClick='location.href="products.html"'>
-                </form>
+                </form> -->
              </div>
         </header>
+        <br>
+         <!-- <h1>Choose your favorite</h1> -->
         <main>
             <h1>Choose your favorite</h1>
+            <br>
             <div id="carouleProducts" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouleProducts" data-slide-to="0" class="active"></li>
                 <li data-target="#carouleProducts" data-slide-to="1"></li>
                 <li data-target="#carouleProducts" data-slide-to="2"></li>
+                <li data-target="#carouleProducts" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -45,6 +49,9 @@
                 </div>
                 <div class="carousel-item">
                 <img class="d-block w-100" src="img/bass.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="img/ukulele.jpg" alt="Fourth slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouleProducts" role="button" data-slide="prev">
@@ -57,65 +64,16 @@
             </a>
             </div>
         </main>
-        <!-- <main>
-            <h2 id="products">Choose your favorite</h2>
-            <div class="product-list">
-                <article class="guitar">
-                    <h3>Acoustic</h3>
-                    <a href="acoustic.html"><img src="img/acoustic.jpg" alt="acoustic" ></a>
-                    <p>Learning to play the acoustic guitar is an incredibly exciting hobby to take on.</p>
-                    <div class="product-buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                   </div>
-                </article>
-                <article class="guitar">
-                    <h3>Electric</h3>
-                    <a href="electric.html"><img src="img/electric.jpg" alt="electric" ></a>
-                    <p>Choosing your first electrical guitar is easy but selecting the
-                    right one for your needs is kind of hard.</p>
-                    <div class="product-buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="guitar">
-                    <h3>Bass</h3>
-                    <a href="bass.html"><img src="img/bass.jpg" alt="bass" ></a>
-                    <p>Playing bass requires a completely different approach to an electric guitar.</p>
-                    <div class="product-buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="guitar">
-                    <h3>Ukulele</h3>
-                    <a href="ukulele.html"><img src="img/ukulele.jpg" alt="ukulele" ></a>
-                    <p>The popularity of ukuleles shouldn't be surprising.</p>
-                    <div class="product-buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="guitar">
-                    <h3>Accessories</h3>
-                    <a href="accs.html"><img src="img/accs.jpg" alt="accessories" ></a>
-                    <p>Every guitarist has their own gadgets and gizmos that help them out.</p>
-                    <div class="product-buttons">
-                        <button class="button card-button">Info</button>
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-            </div>
-        </main> -->
-
+        <br>
         <footer>
-        <h1>Our plocation</h1>
+        <h1>Our location</h1>
+            <br>
                 <div id="location">
                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.26480331765256!2d24.027152859298532!3d49.83602738224387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6f76455555%3A0x3ed2d4c948051556!2z0JzRg9C30LjRh9C90LjQuSDRgdCw0LvQvtC9ICLQldC70YLQvtC9Ig!5e0!3m2!1sru!2sua!4v1571249274575!5m2!1sru!2sua"
-                           width="980" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+                           width="980" height="250" frameborder="0" style="border:0;" allowfullscreen="">
                    </iframe>
-                </div>
+            </div>
+            <div class ="bottom">
             <h1>Subscribe for our newsletters</h1>
             <br>
             <form action="https://formspree.io/sibskana@ukr.net" method="POST">
@@ -125,10 +83,11 @@
                 <label>
                     <input type="submit">
                 </label>
+            </div>
         </form>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
