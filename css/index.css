@@ -72,8 +72,8 @@ header .banner{
 
 header .banner h1{
 
-    /* font-family: 'Aladin', cursive; */
-    font-size: 6rem;
+    display: flex;
+    font-size: 4rem;
     color: #ffd8ad;
     text-shadow: black 1px 1px 0, black -1px -1px 0,
                  black -1px 1px 0, black 1px -1px 0;
@@ -83,7 +83,7 @@ header .banner h1{
 header .banner p{
     font-weight: bold;
     font-family: 'Lato', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--accent-color);
     text-align: center;
     text-shadow: black 1px 1px 0, black -1px -1px 0,
@@ -194,7 +194,7 @@ form{
         background-image: url(../img/background.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 300px;
+        min-height: 150px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -292,6 +292,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .modal img{
     margin: auto;
-    height: 450px;
+    height: 400px;
     max-width: 250px;
 }

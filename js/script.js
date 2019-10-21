@@ -1,15 +1,3 @@
-function show_confirm()
-{
-var r=confirm("Do you accept subscribing");
-if (r==true)
-  {
-  alert("Accept!");
-  }
-else
-  {
-  alert("Deny!");
-  }
-}
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
